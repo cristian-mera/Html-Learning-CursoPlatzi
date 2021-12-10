@@ -94,7 +94,7 @@ figure > img{
 footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     background-color: darkmagenta;
     width: 100vw;
