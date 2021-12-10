@@ -1,0 +1,106 @@
+:root{
+    --height-header:10vh;
+    --width:100vw;
+    --width-side-bar:10rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+}
+.head{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+background-image: url(https://static.vecteezy.com/system/resources/previews/002/541/336/non_2x/dark-pink-blue-background-with-circles-stars-colorful-illustration-with-gradient-dots-stars-design-for-wallpaper-fabric-makers-vector.jpg);
+max-height: 15rem;
+
+}
+.head-item{
+    height: var(--height-header);
+    flex-basis: 10rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+}
+.head-item__logo {
+    height: var(--height-header);
+    flex-basis: 10rem;
+    flex-grow: 2;
+    align-items: center;
+    display: flex;
+}
+.head-item__link {
+    height: var(--height-header);
+    flex-basis: 2rem;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.head-item__logo > img{
+    margin-left: 5.5rem;
+    width: 19rem;
+    height: 6rem;
+}
+.main{
+    height: 80vh;
+    display: flex;
+    width: 100vw;
+}
+figure > img{
+    width: var(--width-side-bar);
+    min-height: 40px;
+    border-radius: 2rem;
+    background-color: white;
+    
+}
+.side-bar{
+    height: 80vh;
+    width: 20vw;
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url(https://fondosmil.com/fondo/23222.jpg);
+    background-attachment: fixed;
+}
+.caja,span,.caja > figure{
+    display: flex;
+    justify-content: center;
+}
+.caja figure{
+    display: flex;
+    flex-direction: column;
+    
+}
+.principal{
+    width: 70vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+}
+.principal img{
+    width: 80vw;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: darkmagenta;
+    width: 100vw;
+    height: 10vh;
+    color: wheat;
+}
+footer >a{
+    color: wheat;
+}
